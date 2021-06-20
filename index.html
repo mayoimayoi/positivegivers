@@ -143,17 +143,14 @@
           </button>
         </section>
       </article>
-          <div class="header-menu--hunger__contents" id="hungermenu">
-      <ul>
-        <li><a href="#">事務所情報</a></li>
-        <li><a href="./view/connect/connect.html">お問い合わせ</a></li>
-        <li><a href="#">お仕事ページ</a></li>
-      </ul>
-      <img
-        src="./img/Hungermenu-Chara.jpeg"
-        alt="ハンガーメニューアイコン"
-      />
-    </div>
+      <div class="header-menu--hunger__contents" id="hungermenu">
+        <ul>
+          <li><a href="#">事務所情報</a></li>
+          <li><a href="./view/connect/connect.html">お問い合わせ</a></li>
+          <li><a href="#">お仕事ページ</a></li>
+        </ul>
+        <img src="./img/Hungermenu-Chara.jpeg" alt="ハンガーメニューアイコン" />
+      </div>
     </main>
     <footer class="footer-nav">
       <div class="footer-nav__conmanyname">
@@ -173,8 +170,8 @@
       let ptcareservice = $("#careservice").offset().top - 500;
       let ptserviceflow = $("#serviceflow").offset().top - 500;
       $(window).scroll(function () {
+        let topposition = $(window).scrollTop();
         // 初めに表示された時にaboutmeは表示されているのでアニメーションが煩わしくなる
-        // let topposition = $(window).scrollTop();
         // if (topposition > ptaboutme) {
         //   $("#aboutme").addClass("fadein");
         // }
