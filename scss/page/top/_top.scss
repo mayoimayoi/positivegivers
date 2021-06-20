@@ -1,0 +1,51 @@
+@import "./../../base/base";
+@import "./../../base/variable";
+@import "./../../mixin/animation";
+
+.top-titleimg {
+  width: 100%;
+  background-color: $whitegray;
+  img {
+    max-height: 400px;
+    margin: 0 auto;
+  }
+}
+.top-contents {
+  @include container(1000px, 80%);
+  .top-contents__sections:first-child {
+    padding-top: 50px;
+  }
+  .top-contents__sections:not(:first-child) {
+    padding-top: 100px;
+  }
+}
+.flexdirection {
+  @include flexdirection();
+}
+
+.top-service {
+  .top-service--title {
+    height: 200px;
+    width: 100%;
+    h2 {
+      color: #ffffff;
+      font-size: 30px;
+      line-height: 200px;
+    }
+  }
+  h3 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+}
+.careservice-img {
+  background: url(./../../img/top/Care-ServiceImg.jpg) center / cover no-repeat;
+}
+.serviceflow-img {
+  background: url(./../../img/top/Service-Flow.jpg) center / cover no-repeat;
+}
+.top-connect__btn {
+  font-size: 30px;
+  margin: 30px auto;
+  @include flex;
+}

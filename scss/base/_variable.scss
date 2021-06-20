@@ -1,0 +1,20 @@
+@mixin flex() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin flexdirection() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@mixin container($maxwidth, $width) {
+  max-width: $maxwidth;
+  width: $width;
+  margin: 0 auto;
+}
+
+$whitegray: #f5f5f5;
+$aliceblue:#f0f8ff;

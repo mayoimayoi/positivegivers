@@ -1,0 +1,10 @@
+.connect-form {
+  @include container(1000px, 80%);
+  @include flexdirection();
+  padding-top: 30px;
+  iframe{
+    @include mq("sp"){
+      width: 100%;
+    }
+  }
+}

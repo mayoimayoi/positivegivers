@@ -1,0 +1,13 @@
+@import "./../base/variable";
+
+.btn {
+  padding: 10px 30px;
+  background-color: #ffd08e;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 5px #CCCB7E;
+}
+.btn:active {
+  box-shadow: none;
+  transform: translate3d(0, 5px, 0);
+}
