@@ -287,28 +287,6 @@ main {
   display: none;
 }
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-}
-
-header main footer {
-  width: 100%;
-}
-
-a {
-  color: #000;
-  text-decoration: none;
-}
-
-ul {
-  list-style: none;
-  padding: 0px;
-}
-
-main {
-  margin-top: 120px;
-}
-
 .footer-nav {
   background-color: #f0f8ff;
   padding: 30px 0;
